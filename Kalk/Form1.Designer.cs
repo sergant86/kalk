@@ -60,6 +60,7 @@
             this.Plus.TabIndex = 2;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
+            this.Plus.Click += new System.EventHandler(this.Plus_Click);
             // 
             // Minys
             // 
@@ -70,6 +71,7 @@
             this.Minys.TabIndex = 3;
             this.Minys.Text = "-";
             this.Minys.UseVisualStyleBackColor = true;
+            this.Minys.Click += new System.EventHandler(this.Minys_Click);
             // 
             // Pomnog
             // 
@@ -80,6 +82,7 @@
             this.Pomnog.TabIndex = 4;
             this.Pomnog.Text = "*";
             this.Pomnog.UseVisualStyleBackColor = true;
+            this.Pomnog.Click += new System.EventHandler(this.Pomnog_Click);
             // 
             // Podil
             // 
@@ -90,6 +93,7 @@
             this.Podil.TabIndex = 5;
             this.Podil.Text = "/";
             this.Podil.UseVisualStyleBackColor = true;
+            this.Podil.Click += new System.EventHandler(this.Podil_Click);
             // 
             // label1
             // 
