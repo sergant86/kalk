@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Kalk
 {
-    public class MyClass
+    public class MyCalk
     {
         public static double Sum(double a, double b)
         {
