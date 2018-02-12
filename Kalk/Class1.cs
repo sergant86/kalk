@@ -8,21 +8,21 @@ using System.Windows.Forms;
 
 namespace Kalk
 {
-    public class MyCalk
+    public partial class MyCalc_calc  
     {
-        public static double Sum(double a, double b)
+        public static int Sum(int a, int b)
         {
             return a + b;
         }
-        public static double Substract(double a, double b)
+        public static int Substract(int a, int b)
         {
             return a - b;
         }
-        public static double Multiply(double a, double b)
+        public static int Multiply(int a, int b)
         {
             return a * b;
         }
-        public static double Devide(double a, double b)
+        public static int Devide(int a, int b)
         {
             return a / b;
         }

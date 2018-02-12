@@ -12,36 +12,34 @@ namespace Kalk
 {
     public partial class Form1 : Form
     {
+        private class MyCalc_calc = new MyCalc();
         public Form1()
         {
             InitializeComponent();
         }
-
-              
-
-
+                 
         private void Sum_Click(object sender, EventArgs e)
         {
-            label1.Text = Convert.ToString(Sum(Convert.ToDouble(textBox1.Text),
-                Convert.ToDouble(textBox2.Text)));
+            label1.Text = Convert.ToString(Sum(Convert.ToInt32(textBox1.Text),
+                Convert.ToInt32(textBox2.Text)));
         }
 
         private void Substract_Click(object sender, EventArgs e)
         {
-            label1.Text = Convert.ToString(Substract(Convert.ToDouble(textBox1.Text),
-                Convert.ToDouble(textBox2.Text)));
+            label1.Text = Convert.ToString(Substract(Convert.ToInt32(textBox1.Text),
+                Convert.ToInt32(textBox2.Text)));
         }
 
         private void Multiply_Click(object sender, EventArgs e)
         {
-            label1.Text = Convert.ToString(Multiply(Convert.ToDouble(textBox1.Text),
-                Convert.ToDouble(textBox2.Text)));
+            label1.Text = Convert.ToString(Multiply(Convert.ToInt32(textBox1.Text),
+                Convert.ToInt32(textBox2.Text)));
         }
 
         private void Devide_Click(object sender, EventArgs e)
         {
-            label1.Text = Convert.ToString(Devide(Convert.ToDouble(textBox1.Text),
-                Convert.ToDouble(textBox2.Text)));
+            label1.Text = Convert.ToString(Devide(Convert.ToInt32(textBox1.Text),
+                Convert.ToInt32(textBox2.Text)));
         }
 
         
