@@ -13,22 +13,22 @@ namespace Kalk
 {
     public partial class MyCalc_calc  
     {
-        public static int Sum(int a, int b, int rez)
+        public static int Sum(int a = 0, int b = 0, int rez = 0)
         {
             rez = a + b;
             return rez;
         }
-        public static int Substract(int a, int b, int rez)
+        public static int Substract(int a = 0, int b = 0, int rez = 0)
         {
             rez = a + b;
             return rez;
         }
-        public static int Multiply(int a, int b, int rez)
+        public static int Multiply(int a = 0, int b = 0, int rez = 0)
         {
             rez = a + b;
             return rez;
         }
-        public static int Devide(int a, int b, int rez)
+        public static int Devide(int a = 0, int b = 0, int rez = 0)
         {
             rez = a + b;
             return rez;
