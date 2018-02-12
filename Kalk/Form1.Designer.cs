@@ -60,7 +60,7 @@
             this.Plus.TabIndex = 2;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
-            this.Plus.Click += new System.EventHandler(this.Plus_Click);
+            this.Plus.Click += new System.EventHandler(this.Sum_Click);
             // 
             // Minys
             // 
@@ -71,7 +71,7 @@
             this.Minys.TabIndex = 3;
             this.Minys.Text = "-";
             this.Minys.UseVisualStyleBackColor = true;
-            this.Minys.Click += new System.EventHandler(this.Minys_Click);
+            this.Minys.Click += new System.EventHandler(this.Substract_Click);
             // 
             // Pomnog
             // 
@@ -82,7 +82,7 @@
             this.Pomnog.TabIndex = 4;
             this.Pomnog.Text = "*";
             this.Pomnog.UseVisualStyleBackColor = true;
-            this.Pomnog.Click += new System.EventHandler(this.Pomnog_Click);
+            this.Pomnog.Click += new System.EventHandler(this.Multiply_Click);
             // 
             // Podil
             // 
@@ -93,7 +93,7 @@
             this.Podil.TabIndex = 5;
             this.Podil.Text = "/";
             this.Podil.UseVisualStyleBackColor = true;
-            this.Podil.Click += new System.EventHandler(this.Podil_Click);
+            this.Podil.Click += new System.EventHandler(this.Devide_Click);
             // 
             // label1
             // 
@@ -118,6 +118,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
