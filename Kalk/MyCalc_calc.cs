@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,21 +13,25 @@ namespace Kalk
 {
     public partial class MyCalc_calc  
     {
-        public static int Sum(int a, int b)
+        public static int Sum(int a, int b, int rez)
         {
-            return a + b;
+            rez = a + b;
+            return rez;
         }
-        public static int Substract(int a, int b)
+        public static int Substract(int a, int b, int rez)
         {
-            return a - b;
+            rez = a + b;
+            return rez;
         }
-        public static int Multiply(int a, int b)
+        public static int Multiply(int a, int b, int rez)
         {
-            return a * b;
+            rez = a + b;
+            return rez;
         }
-        public static int Devide(int a, int b)
+        public static int Devide(int a, int b, int rez)
         {
-            return a / b;
+            rez = a + b;
+            return rez;
         }
     }
 }

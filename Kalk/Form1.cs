@@ -10,16 +10,20 @@ using System.Windows.Forms;
 
 namespace Kalk
 {
+
     public partial class Form1 : Form
     {
-        private class MyCalc_calc = new MyCalc();
+        
         public Form1()
         {
             InitializeComponent();
         }
-                 
+        public MyCalc_calc MyCalc = new MyCalc_calc();
+        
+        
         private void Sum_Click(object sender, EventArgs e)
         {
+            
             label1.Text = Convert.ToString(Sum(Convert.ToInt32(textBox1.Text),
                 Convert.ToInt32(textBox2.Text)));
         }
@@ -42,6 +46,9 @@ namespace Kalk
                 Convert.ToInt32(textBox2.Text)));
         }
 
-        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
