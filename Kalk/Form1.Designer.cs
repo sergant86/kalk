@@ -61,7 +61,6 @@
             this.Plus.TabIndex = 2;
             this.Plus.Text = "+";
             this.Plus.UseVisualStyleBackColor = true;
-            this.Plus.Click += new System.EventHandler(this.Sum_Click);
             // 
             // Minys
             // 
