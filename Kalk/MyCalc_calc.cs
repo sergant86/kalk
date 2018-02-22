@@ -11,27 +11,29 @@ using System.Windows.Forms;
 
 namespace Kalk
 {
-    public partial class MyCalc_calc  
+    public partial class MyCalc_calc
     {
-        public static int Sum(int a = 0, int b = 0, int rez = 0)
+        public static int Sum(int a = 0, int b = 0)
         {
-            rez = a + b;
-            return rez;
+            return a + b;
+            
         }
-        public static int Substract(int a = 0, int b = 0, int rez = 0)
+        public static int Substract(int a = 0, int b = 0)
         {
-            rez = a + b;
-            return rez;
+            return a - b;
+
         }
-        public static int Multiply(int a = 0, int b = 0, int rez = 0)
+        public static int Multiply(int a = 0, int b = 0)
         {
-            rez = a + b;
-            return rez;
+            return a * b;
+
         }
-        public static int Devide(int a = 0, int b = 0, int rez = 0)
+        public static int Devide(int a = 0, int b = 0)
         {
-            rez = a + b;
-            return rez;
+            return a / b;
+
         }
     }
+
+    
 }
