@@ -16,7 +16,8 @@ namespace Kalk
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Сalculator());
+            Application.Run(new Form1());
+
         }
     }
 }

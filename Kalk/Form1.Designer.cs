@@ -1,6 +1,6 @@
 ﻿namespace Kalk
 {
-    partial class Сalculator
+    partial class Form1
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -11,7 +11,7 @@
         /// Освободить все используемые ресурсы.
         /// </summary>
         /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
-        
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -110,13 +110,14 @@
             // 
             // textBox3
             // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox3.Location = new System.Drawing.Point(26, 277);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(253, 52);
             this.textBox3.TabIndex = 7;
             // 
-            // Сalculator
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -130,8 +131,8 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Сalculator";
-            this.Text = "Сalculator";
+            this.Name = "Form1";
+            this.Text = "Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -6,4 +6,4 @@ C:\Users\user\Desktop\программирование\Kalk\Kalk\Kalk\obj\Debug\
 C:\Users\user\Desktop\программирование\Kalk\Kalk\Kalk\obj\Debug\Kalk.csproj.GenerateResource.Cache
 C:\Users\user\Desktop\программирование\Kalk\Kalk\Kalk\obj\Debug\Kalk.exe
 C:\Users\user\Desktop\программирование\Kalk\Kalk\Kalk\obj\Debug\Kalk.pdb
-C:\Users\user\Desktop\программирование\kalk\kalk\Kalk\obj\Debug\Kalk.Сalculator.resources
+C:\Users\user\Desktop\программирование\kalk\kalk\Kalk\obj\Debug\Kalk.Form1.resources

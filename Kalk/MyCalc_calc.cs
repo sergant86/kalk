@@ -13,24 +13,24 @@ namespace Kalk
 {
     public partial class MyCalc_calc
     {
-        public static int Sum(int a = 0, int b = 0)
+        public static int Sum(int _a, int _b)
         {
-            return a + b;
+           return _a + _b;
             
         }
-        public static int Substract(int a = 0, int b = 0)
+        public static int Substract(int _a = 0, int _b = 0)
         {
-            return a - b;
+            return _a - _b;
 
         }
-        public static int Multiply(int a = 0, int b = 0)
+        public static int Multiply(int _a = 0, int _b = 0)
         {
-            return a * b;
+            return _a * _b;
 
         }
-        public static int Devide(int a = 0, int b = 0)
+        public static int Devide(int _a = 0, int _b = 0)
         {
-            return a / b;
+            return _a / _b;
 
         }
     }
