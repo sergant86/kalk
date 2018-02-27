@@ -13,7 +13,7 @@ namespace Kalk
 {
     public partial class MyCalc_calc
     {
-        public static int Sum(int _a, int _b)
+        public static int Sum(int _a = 0, int _b = 0)
         {
            return _a + _b;
             
