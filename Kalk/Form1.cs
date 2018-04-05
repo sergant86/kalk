@@ -23,9 +23,32 @@ namespace Kalk
         public static MyCalc_calc MyCalc = new MyCalc_calc();
 
 
-        int _text1, _text2;
-        string _text3;
-        private void _MyException()
+       
+            private void Sum_Click(object sender, EventArgs e) 
+                {
+            
+                label1.Text = Convert.ToString(MyCalc_calc.Sum(_text1 + _text2));
+
+                }
+
+        private void Substract_Click(object sender, EventArgs e)
+            {
+            label1.Text = Convert.ToString(MyCalc_calc.Substract(_text1 + _text2));
+            }
+
+        private void Multiply_Click(object sender, EventArgs e)
+        {
+            label1.Text = Convert.ToString(MyCalc_calc.Multiply(_text1 + _text2));
+        }
+
+        private void Devide_Click(object sender, EventArgs e)
+        {
+            label1.Text = Convert.ToString(MyCalc_calc.Devide(_text1 + _text2));
+        }
+
+        public int _text1, _text2;
+        public string _text3;
+        public void _MyException()
         {
             try
             {
@@ -46,12 +69,12 @@ namespace Kalk
                 label1.Text = "Введите не ноль";
                 textBox3.Text = _text3;
             }
-            catch(IndexOutOfRangeException)
+            catch (IndexOutOfRangeException)
             {
                 _text3 = ("Укажите хотя бы один аргумент");
                 textBox3.Text = _text3;
             }
-            catch(OverflowException)
+            catch (OverflowException)
             {
                 _text3 = ("Вы ввели число которое выходит за диапазон чисел типа");
                 label1.Text = "Введите от  -2 147 483 648 до  +2 147 483 648";
@@ -59,26 +82,9 @@ namespace Kalk
             }
 
         }
-            private  void Sum_Click(object sender, EventArgs e)
-                {
-                label1.Text = Convert.ToString(MyCalc_calc.Sum(_text1 + _text2));
-                }
-        private void Substract_Click(object sender, EventArgs e)
-            {
-            label1.Text = Convert.ToString(MyCalc_calc.Substract(_text1 + _text2));
-            }
-        private void Multiply_Click(object sender, EventArgs e)
-        {
-            label1.Text = Convert.ToString(MyCalc_calc.Multiply(_text1 + _text2));
-        }
-        private void Devide_Click(object sender, EventArgs e)
-        {
-            label1.Text = Convert.ToString(MyCalc_calc.Devide(_text1 + _text2));
-        }
 
-       
-            
-        
+
+
     }
 
 }
