@@ -26,24 +26,27 @@ namespace Kalk
        
             private void Sum_Click(object sender, EventArgs e) 
                 {
-            
-                label1.Text = Convert.ToString(MyCalc_calc.Sum(_text1 + _text2));
+                _MyException();
+                label1.Text = Convert.ToString(MyCalc_calc.Sum(_text1, _text2));
 
                 }
 
         private void Substract_Click(object sender, EventArgs e)
             {
-            label1.Text = Convert.ToString(MyCalc_calc.Substract(_text1 + _text2));
+            _MyException();
+            label1.Text = Convert.ToString(MyCalc_calc.Substract(_text1, _text2));
             }
 
         private void Multiply_Click(object sender, EventArgs e)
         {
-            label1.Text = Convert.ToString(MyCalc_calc.Multiply(_text1 + _text2));
+            _MyException();
+            label1.Text = Convert.ToString(MyCalc_calc.Multiply(_text1, _text2));
         }
 
         private void Devide_Click(object sender, EventArgs e)
         {
-            label1.Text = Convert.ToString(MyCalc_calc.Devide(_text1 + _text2));
+            _MyException();
+            label1.Text = Convert.ToString(MyCalc_calc.Devide(_text1, _text2));
         }
 
         public int _text1, _text2;
